@@ -1,22 +1,20 @@
 # IDMC Internal Displacement
 
-Contains all the useful resources created or used during the Lagrange scholarship (Dec 2019 - Nov 2020) and the project on Internal Displacement in collaboration with IDMC (https://www.internal-displacement.org/).
+Contains all the useful resources created or used for the project on Internal Displacement in collaboration with IDMC (https://www.internal-displacement.org/).
 
 ## MAIN CONTENTS
 
 ### Notebooks
 All the notebooks used for:
-- manipulating and analyzing data from IDETECT (IDMC's automated monitoring platform)
-- using the API Kili Playground for creating and managing annotation projects on Kili and uploading data (assets)
-- analyzing the annotated data from Kili and assess reliability   
+- analyzing the annotated data from Kili and assess annotation consensus (`consensus/*.ipynb`)
+- train and evaluate machine learning models for classification tasks (`Classification.ipynb`)
 
 ### Datasets
 Including:
-- original articles manually provided by IDMC or scraped from GDELT urls (through IDETECT)
-- datasets manipulated with IDETECT code in order to extract facts, publication date, locations, etc.
-- dataset prepared to be fed as input in a Kili project
-- raw output from Kili projects 
+- urls from articles provided by IDMC or scraped from GDELT urls
+- processed output from Kili projects 
 
+Only content for articles that either changed drastically or cannot be scraped are available. Content for other artilces need to be scraped using the code in `Data-Preparation.ipynb'.
 
 
 
