@@ -16,6 +16,11 @@ Including:
 
 Only content for articles that either changed drastically or cannot be scraped are available. Content for other artilces need to be scraped using the code in `Data-Preparation.ipynb'.
 
+### Tasks
+Including:
+- [Information Exaction](https://github.com/ISIFoundation/Internal-Displacement-Monitoring/tree/master/extraction/idetect/code/Information%20Extraction): extract location, date, quantity information which relavant to displacement
+- [Cause Classification](https://github.com/ISIFoundation/Internal-Displacement-Monitoring/tree/master/extraction/idetect/code/Cause%20Classification): train machine learning models to predict the casue of displacement
+- [Type Classification](https://github.com/ISIFoundation/Internal-Displacement-Monitoring/tree/master/extraction/idetect/code/Type%20Classification): train machine learning models to predict whether an article is relevant to displacement
 
 
 
