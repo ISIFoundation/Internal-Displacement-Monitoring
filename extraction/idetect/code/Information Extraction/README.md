@@ -13,7 +13,7 @@
 
 * ```basic_number```: Add two relevant number strings
  
-* ```check_if_collection_contains_token```: Loosen the condition of matching, the sequence doesn't matter. 
+* ```check_if_collection_contains_token```: Loosen the condition of matching, remove the sequence check. As long as the token in collection, then return ```true``` 
 
 * ```get_quantity_from_phrase```: Add two corner cases: 1. if the quantity words are consecutive. 2. if the token is the last token in a sentence and is quantity word
 
