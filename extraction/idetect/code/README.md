@@ -18,7 +18,7 @@
 * ```get_quantity_from_phrase```: Add two corner cases: 1. if the quantity words are consecutive. 2. if the token is the last token in a sentence and is quantity word
 
 * ```get_quantity_test```: Check a single sentence whether there exist a quantity word or phrase
-* 
+
 * ```get_quantity2```: 1. Align with the update function ```get_quantity_from_phrase``` 2. Allow storing multiply quantity words/phrase within a sentence, where the original 
 * function ```get_quantity``` can only store one quantity word/phrase given one sentence. 
 
